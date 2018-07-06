@@ -1,12 +1,13 @@
 package com.example.designpattern.singleton
 
-class SingleObject private constructor(){
+class SingleObject private constructor() {
 
     companion object {
 
-        var mInstance : SingleObject? = null;
+        var mInstance: SingleObject? = null;
 
-        @Synchronized fun getInstance(args: Int) : SingleObject {
+        @Synchronized
+        fun getInstance(args: Int): SingleObject {
             if (mInstance == null) {
                 mInstance = SingleObject()
             }

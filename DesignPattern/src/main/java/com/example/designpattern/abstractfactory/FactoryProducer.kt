@@ -6,8 +6,8 @@ import com.example.designpattern.abstractfactory.factory.ShapeFactory
 
 class FactoryProducer {
     companion object {
-        fun getFactory(choice: String) : AbstractFactory? {
-            when(choice) {
+        fun getFactory(choice: String): AbstractFactory? {
+            when (choice) {
                 "SHAPE" -> return ShapeFactory()
                 "COLOR" -> return ColorFactory()
             }

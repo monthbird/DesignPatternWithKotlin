@@ -8,7 +8,7 @@ import com.example.designpattern.abstractfactory.shape.Square
 
 class ShapeFactory : AbstractFactory() {
     override fun getShape(shape: String): Shape? {
-        when(shape.toUpperCase()) {
+        when (shape.toUpperCase()) {
             "CIRCLE" -> return Circle()
             "SQUARE" -> return Square()
             "RECTANGLE" -> return Rectangle()

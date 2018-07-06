@@ -1,6 +1,6 @@
 package com.example.designpattern.builder
 
-fun main(vars:Array<String>) {
+fun main(vars: Array<String>) {
     var builder = MealBuilder()
     var vegMeal = builder.prepareVegMeal()
     println("Veg Meal: ")

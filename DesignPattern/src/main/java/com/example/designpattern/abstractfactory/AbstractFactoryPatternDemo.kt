@@ -1,5 +1,4 @@
 import com.example.designpattern.abstractfactory.FactoryProducer
-import com.example.designpattern.abstractfactory.factory.AbstractFactory
 
 fun main(args: Array<String>) {
     val shape = FactoryProducer.getFactory("SHAPE")
