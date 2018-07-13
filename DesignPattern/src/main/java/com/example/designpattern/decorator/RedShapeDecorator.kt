@@ -1,7 +1,7 @@
 package com.example.designpattern.decorator
 
-class RedShapeDecorator(private var decoratedShape:Shape) : ShapeDecorator(decoratedShape) {
-    fun setRedBorder(decoratedShape:Shape) {
+class RedShapeDecorator(private var decoratedShape: Shape) : ShapeDecorator(decoratedShape) {
+    fun setRedBorder(decoratedShape: Shape) {
         println("Border Color: Red")
     }
 
